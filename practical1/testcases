@@ -1,0 +1,31 @@
+Regular expression: a*bb & a+bb
+Accept char string.
+Ensure input is terminated with new line character.
+Write code in c
+Testcases for a*bb:
+	aaabb - Valid input
+	Abab - Invalid input
+
+^-Invalid input, 
+bbbb-Valid input, 
+aaa-Invalid input, 
+baaabb-Invalid input, 
+aaabbb-Invalid input, 
+baaabb-Invalid input, 
+aaaab-Invalid input, 
+abb-Valid input, 
+aaaaabb-Valid input
+
+Testcases for a+bb:
+	aaabb - Valid input
+	Abab - Invalid input
+
+^-Invalid input, 
+bbbb-Invalid input, 
+aaa-Invalid input, 
+baaabb-Invalid input, 
+aaabbb-Invalid input, 
+baaabb-Invalid input, 
+aaaab-Invalid input, 
+abb-Valid input, 
+aaaaabb-Valid input

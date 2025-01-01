@@ -1,0 +1,58 @@
+->	Program 1: DFA for input string abbabab
+
+Transition Table:
+1 to a -> 2
+1 to b -> 3
+2 to a -> 1
+2 to b -> 4
+3 to a -> 4
+3 to b -> 1
+4 to a -> 3
+4 to b -> 2
+Accepting State: 2
+
+Testcases:
+
+abbabab - Valid input  
+abab - Invalid input  
+abbaba - Invalid input  
+ababab - Invalid input  
+abba - Valid input  
+aabab - Invalid input  
+bbbaba - Invalid input 
+
+->	Program 2: String over 0,1 where every 0 is followed by 11
+
+Testcases:
+
+011 - Valid input  
+0011 - Valid input  
+110 - Invalid input  
+0 - Invalid input  
+1011 - Valid input  
+011011 - Valid input  
+0010 - Invalid input  
+
+->	Program 3: String over a, b, c that starts and ends with the same letter
+
+Testcases:
+
+abca - Valid input  
+abbba - Valid input  
+abc - Invalid input  
+abcb - Invalid input  
+aaaaa - Valid input  
+cbc - Valid input  
+babc - Invalid input  
+
+->	Program 4: String over lowercase alphabets and digits, starting with an alphabet
+
+Testcases:
+
+abc123 - Valid input  
+a1b2c3 - Valid input  
+123abc - Invalid input  
+ab12cd34 - Valid input  
+Aabc123 - Invalid input  
+a_b123 - Invalid input  
+xyz789 - Valid input
